@@ -32,7 +32,6 @@ In exploring the data, it was noticed that neither data sets had population in i
 <sup>1</sup> Data for New York, NY includes all 5 boroughs.
 
 ![alt text](image/top10percentchange.png "test")
-
 ![alt text](image/top10dollarchange.png "test")
 
 ## Correlation
