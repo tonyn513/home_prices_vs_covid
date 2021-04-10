@@ -41,7 +41,7 @@ A look at change in value of the highest value markets in the nation and how val
 
 ## Correlation
 
-As noted above, only two counties in the top 100 counties had a negative correlation (San Francisco -0.78 and New York -0.62). All other top 100 counties have a positive correlation.
+As noted above, only two counties in the top 100 counties had a negative correlation (San Francisco -0.779 and New York -0.615). All other top 100 counties have a positive correlation.
 
 #### Top 10 Counties by Typical Home Values Correlation
 
