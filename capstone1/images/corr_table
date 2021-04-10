@@ -1,0 +1,12 @@
+| County-State      |   Correlation |
+|:------------------|--------------:|
+| King, WA          |         0.763 |
+| San Mateo, CA     |         0.719 |
+| Santa Clara, CA   |         0.714 |
+| Alameda, CA       |         0.713 |
+| Contra Costa, CA  |         0.703 |
+| Orange, CA        |         0.684 |
+| Los Angeles, CA   |         0.676 |
+| Honolulu, HI      |         0.341 |
+| New York City, NY |        -0.615 |
+| San Francisco, CA |        -0.779 |

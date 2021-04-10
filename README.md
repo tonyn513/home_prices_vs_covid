@@ -25,26 +25,59 @@ Prior to starting this project, I believed that the housing market was in a decl
 
 ## EDA
 
-I started with importing the Zillow ZHVI data and the COVID data. Specifically looking at the top 100 counties by population (top 100 counties). Out of the top 100 counties, only two had a negative correlation. San Francisco, CA and New York, NY<sup>1</sup>. All other top 100 counties had a positive correlation. In other words, only San Francisco and New York's typical home prices fell, as COVID cases rose.
+I started with importing the Zillow ZHVI data and the COVID data. Specifically looking at the top 100 counties by population (top 100 counties). Out of the top 100 counties, only two had a negative correlation. San Francisco, CA and New York City, NY<sup>1</sup>. All other top 100 counties had a positive correlation. In other words, only San Francisco and New York's typical home prices fell, as COVID cases rose.
 
 In exploring the data, it was noticed that neither data sets had population in its fields. So to get the population data, US Census information was added to find the population by county and to calculate the population density (population/area).
 
-<sup>1</sup> Data for New York, NY includes all 5 boroughs.
+<sup>1</sup> Data for New York City, NY includes all 5 boroughs, which are measured as separate counties on Zillow.
 
-![alt text](image/top10percentchange.png "test")
+#### Top 10 Counties by Typical Housing Value
 
-![alt text](image/top10dollarchange.png "test")
+A look at change in value of the highest value markets in the nation and how values have changed (12/31/2019 to 02/28/2021).
+
+![top percent](capstone1/images/top10percentchange.png)
+
+![dollar change](capstone1/images/top10dollarchange.png)
 
 ## Correlation
 
-As noted above, only two counties in the top 100 counties had a negative correlation (San Francisco -.78 and New York -.62). All other top 100 counties have a positive correlation.  
+As noted above, only two counties in the top 100 counties had a negative correlation (San Francisco -0.78 and New York -0.62). All other top 100 counties have a positive correlation.
 
+#### Top 10 Counties by Typical Home Values Correlation
+
+| County-State      |   Correlation |
+|:------------------|--------------:|
+| King, WA          |         0.763 |
+| San Mateo, CA     |         0.719 |
+| Santa Clara, CA   |         0.714 |
+| Alameda, CA       |         0.713 |
+| Contra Costa, CA  |         0.703 |
+| Orange, CA        |         0.684 |
+| Los Angeles, CA   |         0.676 |
+| Honolulu, HI      |         0.341 |
+| New York City, NY |        -0.615 |
+| San Francisco, CA |        -0.779 |
+
+
+![correlation of top 100](capstone1/images/corr_top_100.png)
+
+#### USA Correlation
+
+As you can see below, typical home values are increasing as COVID cases are increasing. There appears to be a positive correlation.
+
+![home prices and cases trend](capstone1/images/homeprices_and_cases_trend.png)
 
 ## Conclusion
 
+Based on the month-to-month trend of the Typical Home Values and COVID Cases at month end between 12/31/2019 to 02/28/2021, there is a Pearson correlation of 0.825.
+
+Even though COVID has been tough on many people, especially with those that have been personally affected, it doesn't appear as though the housing market has been affect. The typical housing value is still trending upwards even though cases rise.
+
+The Bay Area Exodus does not appear to be quite true according to the typical home value, but it does appear people are tired of paying a ton of high prices for small spaces as indicated by the housing price changes of San Francisco and New York.
+
 ## Contact Information
 
-Tony Nguyen
-tonyn513@gmail.com
-[LinkedIn](https://www.linkedin.com/in/tonymnguyen/)
+Tony Nguyen\
+tonyn513@gmail.com\
+[LinkedIn](https://www.linkedin.com/in/tonymnguyen/)\
 [Slides](https://docs.google.com/presentation/d/1EKAV-aX0lCX7fLuzYX91MKru1Ff5zKjTeLzBYiuHimM/edit#slide=id.gcd088b8d3b_0_125)
